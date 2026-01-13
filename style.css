@@ -1,0 +1,182 @@
+/*For all of them*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    height: 64px;
+    width: 160px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.open-sans-all {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/*Frame one*/
+/*Section one*/
+.frame1 .one {
+    background: url("./images/banner/banner1.png");
+    width: 100vw;
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+ .content{
+  position: relative;
+  top: 216px;
+  left: 845px;
+  right: 230px;
+  bottom: 166px;
+}
+ .content h1{
+    width: 525px;
+    height: 228px;
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+    text-align: end;
+}
+ .content p{
+    height:78px;
+    width: 525px;
+    color: #444343;
+    margin-bottom: 32px;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: end;
+    
+}
+ 
+ .content button{
+    position: relative;
+    left: 365px;
+ }
+ /*Section two*/
+ .two .position{
+    display: flex;
+    width: 1039px;
+    height: 723.3px;
+    margin: 130px auto;
+ }
+ .two .position .img{
+    width: 569px;
+   border-radius: 30px;
+   padding: 40px;
+
+    
+ }
+ .two .position .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+    
+ }
+ .falier{
+    height: 400px;
+    width: 416px;
+    margin: 217px 0px 107px 54px;
+ }
+ .falier h2{
+    height: 94px;
+    width: 288px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+    
+ }
+ .falier p{
+    height: 104px;
+    width: 416px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+ }
+ .falier ul{
+    height: 162px;
+    width:349px ;
+    list-style: none;
+ }
+ .falier ul li{
+    margin-bottom: 8px;
+ }
+ /*Section three*/
+ .three{
+   width: 1140px;
+   height: 300px;
+   margin:130px auto;
+ }
+ .three h1{
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: #151414;
+   margin-bottom: 56px;
+ }
+.three .card-container{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;;
+}
+.card{
+   width: 218px;
+   text-align: center;
+}
+
+.card img{
+   height: 93px;
+   width: 93px;
+   
+   text-align: center;
+   margin:6px auto ;
+}
+.card h2{
+   width: 100%;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 5px 0 16px;
+}
+.card p{
+font-size: 25px;
+color: #737272;
+}
+/*Section four*/
+.four{
+   height: 300px;
+   width: 1140px;
+   margin: 100px auto 130px auto;
+   background-image:url("./images/gradient2.png") ,url("./images/watch.png");
+}
+.sizing{
+   position: relative;
+   top: 59px;
+   bottom: 59px;
+   left: 64px;
+   height: 182px;
+   width: 500px;
+}
+.sizing h2{
+   width: 500px;
+   height: 94px;
+   font-size: 40px;
+   font-weight: bold;
+   color: #FFFFFF;
+   margin-bottom: 24px;
+}
+.sizing button{
+   background-color: #FFFFFF;
+   color: #F15B22;
+}
